@@ -72,8 +72,9 @@ background-color: 8px solid brown;
 
 section{
    width: 1000px;
+   
    background-color: thistle;
-   margin: 0% auto;
+   margin: 0 auto;
    margin-bottom: 5px;
    display: flex;
    flex-wrap: wrap;
@@ -81,28 +82,25 @@ section{
    justify-content: center;
 }
 section div{
-  width: 33%;
-  height: 350px;
-  background-color: yellow;
-  margin-left: 2px;
-}
+  width: 300px;
+  height: 170px;
+  background-color: yellow;}
 #intro{
   background: url(https://wallpapers.com/images/featured/estrellas-doradas-lmg2mvbvt63zckls.jpg);
 }
 #eeuu{
-  background-image: url(../img/banderacan\ \(2\).svg
-  background-size: cover;
+  background-image: url(../img/banderaeeuu.png);
   background-repeat: no-repeat;
   background-position: center;
 }
-#mx¨{
-  background-image: url()
+#mx{
+  background-image: url(../img/banderamex.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: cover;
 }
 #can{
-  background-image: url(https://upload.wikimedia.org/wikipedia/commons/c/cf/Flag_of_Canada.svg);
+  background-image: url(../img/banderacan.svg);
   background-size: cover;
   background-repeat: cover;
   background-position: cover;
@@ -179,3 +177,89 @@ h1 {
   font-weight: bold;
   font-size: 1.5rem;
 }
+
+/*campeones******/
+/******* /* Contenedor principal: Divide el diseño en dos columnas (Continente y Paises)*/
+
+.campeones{
+  display: grid;
+  grid-template-columns: 1fr 3fr; /* 25% para corriente, 75% para paises*/
+  border: 2px solid #000;
+  width: 100px;
+}
+/* Columna Izquierda: Continente ocupara todo el alto disponible automaticamente*/
+.continente{
+  border-right: #000;
+  padding: 15px 10px;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+/* Columna Derecha: Se convierte en otro Grid para organizar el contenido interno */
+.paises{
+  display: grid;
+  grid-template-columns: 1fr 1fr; /* Dividido en 2 columnas para las fotos */
+}
+
+/* El titulo del pais ocupa las dos columnas*/
+.pais{
+  grid-column: spam 2;
+  padding: 10px;
+  font-weight: bold;
+  font-size: 13px;
+  border-bottom: 2px solid #000;
+}
+
+/* Las fotos se acomodan una al lado de la otra automaticamente (50% cada una) */
+.foto{
+  min-height: 120px; /* Espacio para la imagen */
+  padding: 35px 10px 10px 10px;
+  font-size: 11px;
+  border-bottom: 2px solid #000;
+}
+/* Borde vertical divisor solo en la primera foto */
+.foto:nth-of-type(odd){
+  border-right: 2px solid #000;
+}
+
+/* La reseña se salta al fondo ocupando las dos columnas */
+.resenia{
+  grid-column: span 2;
+  padding: 10px;
+  min-height: 80px;
+  font-size: 11px;
+}
+
+
+
+
+.multimedia{
+  width: 800px;
+  background-color: #aaa;
+}
+.multimedia video{
+  width: 600px;
+}
+
+/*estadios*/
+
+
+#estadosunidos, #estadosunidos tr, #estadosunidos td, #estadosunidos th{
+  border: solid cornflowerblue 3px;
+   border-collapse: collapse;
+}
+#estadosunidos img{
+  width: 200px;
+}
+
+#mexico, #mexico tr, #mexico td, #mexico th{
+  border: solid cornflowerblue 3px;
+  border-collapse: collapse;
+}
+#mexico img{
+  width: 200px; 
+}
+
+
+
+
