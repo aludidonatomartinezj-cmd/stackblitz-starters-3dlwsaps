@@ -158,7 +158,7 @@ footer{
 
 
 #estadosunidos, #estadosunidos tr, #estadosunidos td, #estadosunidos th {
-  border: solid coral 3px;
+  border: solid rgb(80, 162, 255) 3px;
   border-collapse: collapse;
 }
 #estadosunidos img{
@@ -166,7 +166,7 @@ footer{
 }
 
 #canada, #canada tr, #canada td, #canada th {
-  border: solid coral 3px;
+  border: solid rgb(80, 162, 255) 3px;
   border-collapse: collapse;
 }
 #canada img{
@@ -174,7 +174,7 @@ footer{
 }
 
 #mexico, #mexico tr, #mexico td, #mexico th {
-  border: solid coral 3px;
+  border: solid rgb(80, 162, 255) 3px;
   border-collapse: collapse;
 }
 #mexico img{
