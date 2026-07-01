@@ -157,12 +157,11 @@ footer{
 
 
 #estadosunidos, #estadosunidos tr, #estadosunidos td, #estadosunidos th {
-  border: solid rgb(80, 162, 255) 3px;
+  border: solid rgb 3px;
   border-collapse: collapse;
 }
 #estadosunidos img{
   width: 200px;
-  background-color: lightblue
 
 }
 
