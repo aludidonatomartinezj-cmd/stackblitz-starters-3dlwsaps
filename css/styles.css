@@ -152,11 +152,33 @@ footer{
   }
 #redes{
   width: 33%;
-  background-color: lightblue;
   padding: 5px;
 }
 
 
+#estadosunidos, #estadosunidos tr, #estadosunidos td, #estadosunidos th {
+  border: solid rgb(80, 162, 255) 3px;
+  border-collapse: collapse;
+}
+#estadosunidos img{
+  width: 200px;
+}
+
+#canada, #canada tr, #canada td, #canada th {
+  border: solid rgb(80, 162, 255) 3px;
+  border-collapse: collapse;
+}
+#canada img{
+  width: 200px;
+}
+
+#mexico, #mexico tr, #mexico td, #mexico th {
+  border: solid rgb(80, 162, 255) 3px;
+  border-collapse: collapse;
+}
+#mexico img{
+  width: 200px;
+}
 
 
   /*fin del footer*/
@@ -250,21 +272,6 @@ h1 {
 /*estadios*/
 
 
-#estadosunidos, #estadosunidos tr, #estadosunidos td, #estadosunidos th{
-  border: solid cornflowerblue 3px;
-   border-collapse: collapse;
-}
-#estadosunidos img{
-  width: 200px;
-}
-
-#mexico, #mexico tr, #mexico td, #mexico th{
-  border: solid cornflowerblue 3px;
-  border-collapse: collapse;
-}
-#mexico img{
-  width: 200px; 
-}
 
 
 
