@@ -157,7 +157,7 @@ footer{
 
 
 #estadosunidos, #estadosunidos tr, #estadosunidos td, #estadosunidos th {
-  border: solid rgb 3px;
+  border: solid lightblue;
   border-collapse: collapse;
 }
 #estadosunidos img{
